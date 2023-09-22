@@ -16,7 +16,7 @@ Whats differnet (I think)
 
 ## Hardware List (major items)
 ### MCU Board:
-- ####b goal: "blue pill" stem32 (using ardino IDE/loader) 
+- #### goal: "blue pill" stem32 (using ardino IDE/loader) 
 - backup plan Atmel 328 boards should work - however may require additional hardware / code changes
 - Starting with a naked Atmega chip isn't recommended unless you really know what you are doing
 - Project compiles to about 9k - so get a 16k or better chip.
