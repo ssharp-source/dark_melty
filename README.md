@@ -1,4 +1,4 @@
-# dark_openmelt
+# dark_melty
 open source melty brain - info at nothinglabs.com
 
 Fork to mood drive, filtering and explore differnet HW targets
@@ -20,7 +20,7 @@ Whats differnet (I think)
 - backup plan Atmel 328 boards should work - however may require additional hardware / code changes
 
 
-## Accelerometer:
+## Accelerometer New:
 - Needs to measure high G forces (1500rpm at 6cm is 150G) - see centrifuge calculator
 - Sparkfun's pre-mounted ADXL193 is the currently recommended solution (obsoleted ) bought a EVAL-ADXL375
 - Freescale 200g MMA2301Eg - used extensively in the past (needs SOIC 16 mount / may not be available)
@@ -31,15 +31,12 @@ Whats differnet (I think)
 - Hard rubber doesn't work that well
 - Foam wheels seem to work best (see wheel comparison video)
 
-## A heading LED (might change this to text flashing status..)
-- Use the correct size limiting resistor
-- Be careful not to overload your voltage regulator or the Orangutan's motor controller
+## A heading LED (change this to text flashing status..)
+- I want to add a POV (persistants of vision shape/text on the bot)
+
+
 
 ## Brushless Motor / Controller Option:
-- Open Melt now supports brushless motors / controllers via high update rate PWM
-- Any brushless motor controller supporting input PWM frequencies over 305 hz should work (although this specification is usually not listed)
-- Testing was specifically done with a Hobbywing Pentium-18a
-- Openpilot.org lists other ESCs that support high refresh rates which will likely work (but haven't been tested)
-- All wiring is the same - except that motor control pins (PD2 and PD4) are connected directly to the signal pin of the ESC
+used one form finger tech
 
 
