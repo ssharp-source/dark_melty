@@ -3,27 +3,26 @@ open source melty brain - info at nothinglabs.com
 
 Fork to mood drive, filtering and explore differnet HW targets
 
-Goal to have a fork donen by the end of sept. to test by teh early part of Oct
+Goal to have a fork donen by the end of sept(that didnt happen). to test by the early..late part of Oct
 
-If this turns into a massive rewrite the I might make a seperate repo and release it 
+If this turns into a massive rewrite the I might make a seperate repo and release it (it happend and Im nerfing this to arduino)
 
 Whats differnet (I think)
 -IF two wheels use them continuously (not just 180 to 350 degree) but "foward" bottome wheel positve from 180 to 0 and top wheel negative direction from 0 to 180. this should make a two wheeled version suuuuper fast
 - Fir filter the IMU
-- add external refernece (may be a bridge too far)
-- target FPGA (looking at Intel ice family) 
+- Add external frame refernece (may be a bridge too far)
+- target bluepill
 
 
 ## Hardware List (major items)
 ### MCU Board:
 - #### goal: "blue pill" stem32 (using ardino IDE/loader) 
 - backup plan Atmel 328 boards should work - however may require additional hardware / code changes
-- Starting with a naked Atmega chip isn't recommended unless you really know what you are doing
-- Project compiles to about 9k - so get a 16k or better chip.
+
 
 ## Accelerometer:
 - Needs to measure high G forces (1500rpm at 6cm is 150G) - see centrifuge calculator
-- Sparkfun's pre-mounted ADXL193 is the currently recommended solution
+- Sparkfun's pre-mounted ADXL193 is the currently recommended solution (obsoleted ) bought a EVAL-ADXL375
 - Freescale 200g MMA2301Eg - used extensively in the past (needs SOIC 16 mount / may not be available)
 
 
